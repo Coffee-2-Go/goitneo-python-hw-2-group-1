@@ -20,15 +20,15 @@ class RecordError(Exception):
     pass
 
 
+# CLASSES
+
+
 class Field:
     def __init__(self, value):
         self.value = value
 
     def __str__(self):
         return str(self.value)
-
-
-# CLASSES
 
 
 class Name(Field):
